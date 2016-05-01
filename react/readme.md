@@ -12,6 +12,7 @@ By no means is my approach optimal or complete. Things I could've done but haven
 - Internationalization.
 - Extracting certain pieces of repeating logic. E.g. my action handlers are "created dynamically". The method, which performs this initialization should be a generic method somewhere else. I didn't do that since I would need to mess with module loading or come up with something different. That would be the next step in the process.
 - Creating a proper REST service map, similar to what a Spring application might use.
+- Write some Unit Tests.
 
 Development notes:
 
